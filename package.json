@@ -1,0 +1,48 @@
+{
+  "name": "QQ-ADMIN",
+  "version": "1.0.0",
+  "description": "<!--  * @Author: your name  * @Date: 2021-07-28 19:54:57  * @LastEditTime: 2021-07-28 19:56:05  * @LastEditors: Please set LastEditors  * @Description: In User Settings Edit  * @FilePath: /QQ-ADMIN/README.md --> # QQ-ADMIN 乔乔的管理系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config webpack.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QYX122/QQ-ADMIN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QYX122/QQ-ADMIN/issues"
+  },
+  "homepage": "https://github.com/QYX122/QQ-ADMIN#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "path": "^0.12.7",
+    "postcss-loader": "^6.1.1",
+    "postcss-normalize": "^10.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "react-dev-utils": "^11.0.4",
+    "resolve-url-loader": "^4.0.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
