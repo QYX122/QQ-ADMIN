@@ -1,21 +1,26 @@
 /*
  * @Author: your name
- * @Date: 2021-08-16 14:46:06
- * @LastEditTime: 2021-08-17 10:32:10
+ * @Date: 2021-07-16 17:25:16
+ * @LastEditTime: 2021-08-17 15:36:26
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /QQ-ADMIN/src/index.js
+ * @FilePath: /my-app/src/index.js
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import styles from './index.module.less';
-import pic from './test.jpeg';
+import './index.css';
+import './assets/root.css';
+import App from './App';
+// import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className={styles.title}>你好!!!986，React-webpack5-template
-    <img src={require('./test.jpeg')}></img>
-    </div>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

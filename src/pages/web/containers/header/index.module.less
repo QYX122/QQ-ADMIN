@@ -1,0 +1,33 @@
+.headerContainer{
+  padding: 0;
+  background-color: #fff;
+  :global{
+    .ant-menu-horizontal {
+      height: 64px;
+      line-height: 64px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: none;
+    }
+  }
+  .logo {
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+    margin: 16px 28px 16px 0;
+    float: left;
+    padding-left: 10px;
+  }
+  .navAuth {
+    float: right;
+    right: 10px;
+  } 
+  .mobile {
+    .ant-layout-header {
+      padding: 0;
+    }
+    .ant-menu-item, .ant-menu-submenu-title {
+      padding: 0 10px;
+    }
+  }
+}

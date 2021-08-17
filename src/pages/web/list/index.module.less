@@ -1,0 +1,30 @@
+.listWrapper{
+  :global{
+    .ant-list-item {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  .listItem{
+    :global{
+      .ant-list-item-meta-title{
+          -webkit-box-orient: vertical;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					word-break: break-all;
+					display: -webkit-box;
+					-webkit-line-clamp: 2
+      }
+      .ant-list-item-meta-description{
+        -webkit-box-orient: vertical;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					word-break: break-all;
+					display: -webkit-box;
+					-webkit-line-clamp: 1
+      }
+    }
+    
+  }
+}
